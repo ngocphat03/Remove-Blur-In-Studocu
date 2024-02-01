@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Remove blur background Studocu",
+    "description": "Say goodbye to distracting blur effects in Studocu documents.",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "matches": ["https://*.studocu.com/", "https://*.studocu.com/*"],
+        "js": ["js/remove-blur-background.js"]
+      }
+    ]
+}
